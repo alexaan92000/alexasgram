@@ -1,6 +1,6 @@
-# Project 4 - *Name of App Here*
+# Project 4 - alexasgram
 
-**Name of your app** is a photo sharing app using Parse as its backend.
+alexasgram is a photo sharing app using Parse as its backend.
 
 Time spent: **X** hours spent in total
 
@@ -63,7 +63,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2019] [Alexa Morales]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
