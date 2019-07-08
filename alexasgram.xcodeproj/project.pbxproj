@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		914D23E322D3FBA3000227BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 914D23E222D3FBA3000227BC /* AppDelegate.m */; };
+		914D23E622D3FBA3000227BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914D23E522D3FBA3000227BC /* ViewController.m */; };
+		914D23E922D3FBA3000227BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914D23E722D3FBA3000227BC /* Main.storyboard */; };
+		914D23EB22D3FBA4000227BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914D23EA22D3FBA4000227BC /* Assets.xcassets */; };
+		914D23EE22D3FBA4000227BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914D23EC22D3FBA4000227BC /* LaunchScreen.storyboard */; };
+		914D23F122D3FBA4000227BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 914D23F022D3FBA4000227BC /* main.m */; };
+		914D23FB22D3FBA4000227BC /* alexasgramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 914D23FA22D3FBA4000227BC /* alexasgramTests.m */; };
+		914D240622D3FBA4000227BC /* alexasgramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 914D240522D3FBA4000227BC /* alexasgramUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		914D23F722D3FBA4000227BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 914D23D622D3FBA3000227BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 914D23DD22D3FBA3000227BC;
+			remoteInfo = alexasgram;
+		};
+		914D240222D3FBA4000227BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 914D23D622D3FBA3000227BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 914D23DD22D3FBA3000227BC;
+			remoteInfo = alexasgram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		914D23DE22D3FBA3000227BC /* alexasgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alexasgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		914D23E122D3FBA3000227BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		914D23E222D3FBA3000227BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		914D23E422D3FBA3000227BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		914D23E522D3FBA3000227BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		914D23E822D3FBA3000227BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		914D23EA22D3FBA4000227BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		914D23ED22D3FBA4000227BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		914D23EF22D3FBA4000227BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		914D23F022D3FBA4000227BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		914D23F622D3FBA4000227BC /* alexasgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alexasgramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		914D23FA22D3FBA4000227BC /* alexasgramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alexasgramTests.m; sourceTree = "<group>"; };
+		914D23FC22D3FBA4000227BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		914D240122D3FBA4000227BC /* alexasgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alexasgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		914D240522D3FBA4000227BC /* alexasgramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alexasgramUITests.m; sourceTree = "<group>"; };
+		914D240722D3FBA4000227BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		914D23DB22D3FBA3000227BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914D23F322D3FBA4000227BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914D23FE22D3FBA4000227BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		914D23D522D3FBA3000227BC = {
+			isa = PBXGroup;
+			children = (
+				914D23E022D3FBA3000227BC /* alexasgram */,
+				914D23F922D3FBA4000227BC /* alexasgramTests */,
+				914D240422D3FBA4000227BC /* alexasgramUITests */,
+				914D23DF22D3FBA3000227BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		914D23DF22D3FBA3000227BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				914D23DE22D3FBA3000227BC /* alexasgram.app */,
+				914D23F622D3FBA4000227BC /* alexasgramTests.xctest */,
+				914D240122D3FBA4000227BC /* alexasgramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		914D23E022D3FBA3000227BC /* alexasgram */ = {
+			isa = PBXGroup;
+			children = (
+				914D23E122D3FBA3000227BC /* AppDelegate.h */,
+				914D23E222D3FBA3000227BC /* AppDelegate.m */,
+				914D23E422D3FBA3000227BC /* ViewController.h */,
+				914D23E522D3FBA3000227BC /* ViewController.m */,
+				914D23E722D3FBA3000227BC /* Main.storyboard */,
+				914D23EA22D3FBA4000227BC /* Assets.xcassets */,
+				914D23EC22D3FBA4000227BC /* LaunchScreen.storyboard */,
+				914D23EF22D3FBA4000227BC /* Info.plist */,
+				914D23F022D3FBA4000227BC /* main.m */,
+			);
+			path = alexasgram;
+			sourceTree = "<group>";
+		};
+		914D23F922D3FBA4000227BC /* alexasgramTests */ = {
+			isa = PBXGroup;
+			children = (
+				914D23FA22D3FBA4000227BC /* alexasgramTests.m */,
+				914D23FC22D3FBA4000227BC /* Info.plist */,
+			);
+			path = alexasgramTests;
+			sourceTree = "<group>";
+		};
+		914D240422D3FBA4000227BC /* alexasgramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				914D240522D3FBA4000227BC /* alexasgramUITests.m */,
+				914D240722D3FBA4000227BC /* Info.plist */,
+			);
+			path = alexasgramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		914D23DD22D3FBA3000227BC /* alexasgram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914D240A22D3FBA4000227BC /* Build configuration list for PBXNativeTarget "alexasgram" */;
+			buildPhases = (
+				914D23DA22D3FBA3000227BC /* Sources */,
+				914D23DB22D3FBA3000227BC /* Frameworks */,
+				914D23DC22D3FBA3000227BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = alexasgram;
+			productName = alexasgram;
+			productReference = 914D23DE22D3FBA3000227BC /* alexasgram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		914D23F522D3FBA4000227BC /* alexasgramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914D240D22D3FBA4000227BC /* Build configuration list for PBXNativeTarget "alexasgramTests" */;
+			buildPhases = (
+				914D23F222D3FBA4000227BC /* Sources */,
+				914D23F322D3FBA4000227BC /* Frameworks */,
+				914D23F422D3FBA4000227BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				914D23F822D3FBA4000227BC /* PBXTargetDependency */,
+			);
+			name = alexasgramTests;
+			productName = alexasgramTests;
+			productReference = 914D23F622D3FBA4000227BC /* alexasgramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		914D240022D3FBA4000227BC /* alexasgramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914D241022D3FBA4000227BC /* Build configuration list for PBXNativeTarget "alexasgramUITests" */;
+			buildPhases = (
+				914D23FD22D3FBA4000227BC /* Sources */,
+				914D23FE22D3FBA4000227BC /* Frameworks */,
+				914D23FF22D3FBA4000227BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				914D240322D3FBA4000227BC /* PBXTargetDependency */,
+			);
+			name = alexasgramUITests;
+			productName = alexasgramUITests;
+			productReference = 914D240122D3FBA4000227BC /* alexasgramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		914D23D622D3FBA3000227BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = alexamorales;
+				TargetAttributes = {
+					914D23DD22D3FBA3000227BC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					914D23F522D3FBA4000227BC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 914D23DD22D3FBA3000227BC;
+					};
+					914D240022D3FBA4000227BC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 914D23DD22D3FBA3000227BC;
+					};
+				};
+			};
+			buildConfigurationList = 914D23D922D3FBA3000227BC /* Build configuration list for PBXProject "alexasgram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 914D23D522D3FBA3000227BC;
+			productRefGroup = 914D23DF22D3FBA3000227BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				914D23DD22D3FBA3000227BC /* alexasgram */,
+				914D23F522D3FBA4000227BC /* alexasgramTests */,
+				914D240022D3FBA4000227BC /* alexasgramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		914D23DC22D3FBA3000227BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914D23EE22D3FBA4000227BC /* LaunchScreen.storyboard in Resources */,
+				914D23EB22D3FBA4000227BC /* Assets.xcassets in Resources */,
+				914D23E922D3FBA3000227BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914D23F422D3FBA4000227BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914D23FF22D3FBA4000227BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		914D23DA22D3FBA3000227BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914D23E622D3FBA3000227BC /* ViewController.m in Sources */,
+				914D23F122D3FBA4000227BC /* main.m in Sources */,
+				914D23E322D3FBA3000227BC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914D23F222D3FBA4000227BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914D23FB22D3FBA4000227BC /* alexasgramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914D23FD22D3FBA4000227BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914D240622D3FBA4000227BC /* alexasgramUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		914D23F822D3FBA4000227BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 914D23DD22D3FBA3000227BC /* alexasgram */;
+			targetProxy = 914D23F722D3FBA4000227BC /* PBXContainerItemProxy */;
+		};
+		914D240322D3FBA4000227BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 914D23DD22D3FBA3000227BC /* alexasgram */;
+			targetProxy = 914D240222D3FBA4000227BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		914D23E722D3FBA3000227BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914D23E822D3FBA3000227BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		914D23EC22D3FBA4000227BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914D23ED22D3FBA4000227BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		914D240822D3FBA4000227BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		914D240922D3FBA4000227BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		914D240B22D3FBA4000227BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NNK8U3CZ8;
+				INFOPLIST_FILE = alexasgram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexamorales.alexasgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		914D240C22D3FBA4000227BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NNK8U3CZ8;
+				INFOPLIST_FILE = alexasgram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexamorales.alexasgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		914D240E22D3FBA4000227BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NNK8U3CZ8;
+				INFOPLIST_FILE = alexasgramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexamorales.alexasgramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alexasgram.app/alexasgram";
+			};
+			name = Debug;
+		};
+		914D240F22D3FBA4000227BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NNK8U3CZ8;
+				INFOPLIST_FILE = alexasgramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexamorales.alexasgramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alexasgram.app/alexasgram";
+			};
+			name = Release;
+		};
+		914D241122D3FBA4000227BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NNK8U3CZ8;
+				INFOPLIST_FILE = alexasgramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexamorales.alexasgramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = alexasgram;
+			};
+			name = Debug;
+		};
+		914D241222D3FBA4000227BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NNK8U3CZ8;
+				INFOPLIST_FILE = alexasgramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexamorales.alexasgramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = alexasgram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		914D23D922D3FBA3000227BC /* Build configuration list for PBXProject "alexasgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914D240822D3FBA4000227BC /* Debug */,
+				914D240922D3FBA4000227BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914D240A22D3FBA4000227BC /* Build configuration list for PBXNativeTarget "alexasgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914D240B22D3FBA4000227BC /* Debug */,
+				914D240C22D3FBA4000227BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914D240D22D3FBA4000227BC /* Build configuration list for PBXNativeTarget "alexasgramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914D240E22D3FBA4000227BC /* Debug */,
+				914D240F22D3FBA4000227BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914D241022D3FBA4000227BC /* Build configuration list for PBXNativeTarget "alexasgramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914D241122D3FBA4000227BC /* Debug */,
+				914D241222D3FBA4000227BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 914D23D622D3FBA3000227BC /* Project object */;
+}
