@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SignUpViewController.h
 //  alexasgram
 //
 //  Created by alexamorales on 7/8/19.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SignUpViewController : UIViewController
 
 
 @end
