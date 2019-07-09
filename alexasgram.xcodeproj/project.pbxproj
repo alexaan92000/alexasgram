@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36C259BD198FEC3518447FA2 /* Pods_alexasgramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55AA5949448E93ACB8F4363A /* Pods_alexasgramTests.framework */; };
 		914D23E322D3FBA3000227BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 914D23E222D3FBA3000227BC /* AppDelegate.m */; };
 		914D23E622D3FBA3000227BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914D23E522D3FBA3000227BC /* ViewController.m */; };
 		914D23E922D3FBA3000227BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914D23E722D3FBA3000227BC /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		914D23F122D3FBA4000227BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 914D23F022D3FBA4000227BC /* main.m */; };
 		914D23FB22D3FBA4000227BC /* alexasgramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 914D23FA22D3FBA4000227BC /* alexasgramTests.m */; };
 		914D240622D3FBA4000227BC /* alexasgramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 914D240522D3FBA4000227BC /* alexasgramUITests.m */; };
+		AFF0E082BAA16F2CFF16EAF8 /* Pods_alexasgramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896D1B6C7455CD303CF13B30 /* Pods_alexasgramUITests.framework */; };
+		D0BFD776CE863E501A41E795 /* Pods_alexasgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBFCBD35149AAD5C6F2DE73 /* Pods_alexasgram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02F7DF9B2375ED53FEDC319A /* Pods-alexasgramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alexasgramUITests.debug.xcconfig"; path = "Target Support Files/Pods-alexasgramUITests/Pods-alexasgramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		55AA5949448E93ACB8F4363A /* Pods_alexasgramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alexasgramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA67268877A9E218BE6074B /* Pods-alexasgramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alexasgramUITests.release.xcconfig"; path = "Target Support Files/Pods-alexasgramUITests/Pods-alexasgramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		896D1B6C7455CD303CF13B30 /* Pods_alexasgramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alexasgramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE550A470AA981F892374A1 /* Pods-alexasgramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alexasgramTests.release.xcconfig"; path = "Target Support Files/Pods-alexasgramTests/Pods-alexasgramTests.release.xcconfig"; sourceTree = "<group>"; };
 		914D23DE22D3FBA3000227BC /* alexasgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alexasgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		914D23E122D3FBA3000227BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		914D23E222D3FBA3000227BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		914D240122D3FBA4000227BC /* alexasgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alexasgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		914D240522D3FBA4000227BC /* alexasgramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alexasgramUITests.m; sourceTree = "<group>"; };
 		914D240722D3FBA4000227BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B92963A2033378B1506FC38C /* Pods-alexasgramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alexasgramTests.debug.xcconfig"; path = "Target Support Files/Pods-alexasgramTests/Pods-alexasgramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D817E7A015753E781FCFF241 /* Pods-alexasgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alexasgram.release.xcconfig"; path = "Target Support Files/Pods-alexasgram/Pods-alexasgram.release.xcconfig"; sourceTree = "<group>"; };
+		DCBFCBD35149AAD5C6F2DE73 /* Pods_alexasgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alexasgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFF6D0F9245CC9205EE277A /* Pods-alexasgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alexasgram.debug.xcconfig"; path = "Target Support Files/Pods-alexasgram/Pods-alexasgram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BFD776CE863E501A41E795 /* Pods_alexasgram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36C259BD198FEC3518447FA2 /* Pods_alexasgramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFF0E082BAA16F2CFF16EAF8 /* Pods_alexasgramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				914D23F922D3FBA4000227BC /* alexasgramTests */,
 				914D240422D3FBA4000227BC /* alexasgramUITests */,
 				914D23DF22D3FBA3000227BC /* Products */,
+				A8C05A7A0933672337E75E27 /* Pods */,
+				EAB43FDF24812E897AFF28A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +149,29 @@
 			path = alexasgramUITests;
 			sourceTree = "<group>";
 		};
+		A8C05A7A0933672337E75E27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF6D0F9245CC9205EE277A /* Pods-alexasgram.debug.xcconfig */,
+				D817E7A015753E781FCFF241 /* Pods-alexasgram.release.xcconfig */,
+				B92963A2033378B1506FC38C /* Pods-alexasgramTests.debug.xcconfig */,
+				8FE550A470AA981F892374A1 /* Pods-alexasgramTests.release.xcconfig */,
+				02F7DF9B2375ED53FEDC319A /* Pods-alexasgramUITests.debug.xcconfig */,
+				5EA67268877A9E218BE6074B /* Pods-alexasgramUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EAB43FDF24812E897AFF28A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCBFCBD35149AAD5C6F2DE73 /* Pods_alexasgram.framework */,
+				55AA5949448E93ACB8F4363A /* Pods_alexasgramTests.framework */,
+				896D1B6C7455CD303CF13B30 /* Pods_alexasgramUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 914D240A22D3FBA4000227BC /* Build configuration list for PBXNativeTarget "alexasgram" */;
 			buildPhases = (
+				4E5E6EBE7CD9B65821795BFC /* [CP] Check Pods Manifest.lock */,
 				914D23DA22D3FBA3000227BC /* Sources */,
 				914D23DB22D3FBA3000227BC /* Frameworks */,
 				914D23DC22D3FBA3000227BC /* Resources */,
+				D2EFC2BC5494691374E5CECA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 914D240D22D3FBA4000227BC /* Build configuration list for PBXNativeTarget "alexasgramTests" */;
 			buildPhases = (
+				E6955AF2D65632D2E8B491BE /* [CP] Check Pods Manifest.lock */,
 				914D23F222D3FBA4000227BC /* Sources */,
 				914D23F322D3FBA4000227BC /* Frameworks */,
 				914D23F422D3FBA4000227BC /* Resources */,
@@ -174,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 914D241022D3FBA4000227BC /* Build configuration list for PBXNativeTarget "alexasgramUITests" */;
 			buildPhases = (
+				CF9DE4CCD9F4B2A6534D4440 /* [CP] Check Pods Manifest.lock */,
 				914D23FD22D3FBA4000227BC /* Sources */,
 				914D23FE22D3FBA4000227BC /* Frameworks */,
 				914D23FF22D3FBA4000227BC /* Resources */,
@@ -256,6 +300,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E5E6EBE7CD9B65821795BFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-alexasgram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF9DE4CCD9F4B2A6534D4440 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-alexasgramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2EFC2BC5494691374E5CECA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-alexasgram/Pods-alexasgram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-alexasgram/Pods-alexasgram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-alexasgram/Pods-alexasgram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6955AF2D65632D2E8B491BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-alexasgramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		914D23DA22D3FBA3000227BC /* Sources */ = {
@@ -433,6 +563,7 @@
 		};
 		914D240B22D3FBA4000227BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFFF6D0F9245CC9205EE277A /* Pods-alexasgram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +581,7 @@
 		};
 		914D240C22D3FBA4000227BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D817E7A015753E781FCFF241 /* Pods-alexasgram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +599,7 @@
 		};
 		914D240E22D3FBA4000227BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B92963A2033378B1506FC38C /* Pods-alexasgramTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +619,7 @@
 		};
 		914D240F22D3FBA4000227BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE550A470AA981F892374A1 /* Pods-alexasgramTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +639,7 @@
 		};
 		914D241122D3FBA4000227BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F7DF9B2375ED53FEDC319A /* Pods-alexasgramUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4NNK8U3CZ8;
@@ -523,6 +658,7 @@
 		};
 		914D241222D3FBA4000227BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EA67268877A9E218BE6074B /* Pods-alexasgramUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4NNK8U3CZ8;
