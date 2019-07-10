@@ -19,6 +19,7 @@
 		914D241822D541B8000227BC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914D241722D541B8000227BC /* LoginViewController.m */; };
 		914D241B22D54539000227BC /* HomeFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914D241A22D54539000227BC /* HomeFeedViewController.m */; };
 		914D241E22D5664D000227BC /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914D241D22D5664D000227BC /* ProfileViewController.m */; };
+		914D246B22D696F4000227BC /* PostingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914D246A22D696F4000227BC /* PostingViewController.m */; };
 		AFF0E082BAA16F2CFF16EAF8 /* Pods_alexasgramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896D1B6C7455CD303CF13B30 /* Pods_alexasgramUITests.framework */; };
 		D0BFD776CE863E501A41E795 /* Pods_alexasgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBFCBD35149AAD5C6F2DE73 /* Pods_alexasgram.framework */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,8 @@
 		914D241A22D54539000227BC /* HomeFeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeFeedViewController.m; sourceTree = "<group>"; };
 		914D241C22D5664D000227BC /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		914D241D22D5664D000227BC /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		914D246922D696F4000227BC /* PostingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostingViewController.h; sourceTree = "<group>"; };
+		914D246A22D696F4000227BC /* PostingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostingViewController.m; sourceTree = "<group>"; };
 		B92963A2033378B1506FC38C /* Pods-alexasgramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alexasgramTests.debug.xcconfig"; path = "Target Support Files/Pods-alexasgramTests/Pods-alexasgramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D817E7A015753E781FCFF241 /* Pods-alexasgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alexasgram.release.xcconfig"; path = "Target Support Files/Pods-alexasgram/Pods-alexasgram.release.xcconfig"; sourceTree = "<group>"; };
 		DCBFCBD35149AAD5C6F2DE73 /* Pods_alexasgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alexasgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +137,8 @@
 				914D241622D541B7000227BC /* LoginViewController.h */,
 				914D241722D541B8000227BC /* LoginViewController.m */,
 				914D23E722D3FBA3000227BC /* Main.storyboard */,
+				914D246922D696F4000227BC /* PostingViewController.h */,
+				914D246A22D696F4000227BC /* PostingViewController.m */,
 				914D241C22D5664D000227BC /* ProfileViewController.h */,
 				914D241D22D5664D000227BC /* ProfileViewController.m */,
 				914D241922D54539000227BC /* HomeFeedViewController.h */,
@@ -407,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				914D246B22D696F4000227BC /* PostingViewController.m in Sources */,
 				914D241B22D54539000227BC /* HomeFeedViewController.m in Sources */,
 				914D241822D541B8000227BC /* LoginViewController.m in Sources */,
 				914D23E622D3FBA3000227BC /* SignUpViewController.m in Sources */,
