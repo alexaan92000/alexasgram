@@ -14,6 +14,8 @@
 //remember that properties are specific to the view controller I created
 @property (weak, nonatomic) IBOutlet UITextField *loginTextField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
+@property (weak, nonatomic) IBOutlet UILabel *alexasgram;
+@property (strong, nonatomic) IBOutlet UIView *background;
 
 @end
 
@@ -21,6 +23,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+
     // Do any additional setup after loading the view.
 }
 

@@ -1,14 +1,14 @@
 //
-//  PostTableViewCell.m
+//  PostCell.m
 //  alexasgram
 //
 //  Created by alexamorales on 7/11/19.
 //  Copyright © 2019 alexamorales. All rights reserved.
 //
 
-#import "PostTableViewCell.h"
+#import "PostCell.h"
 
-@implementation PostTableViewCell
+@implementation PostCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];

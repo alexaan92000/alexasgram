@@ -8,14 +8,14 @@
 
 #import "HomeFeedViewController.h"
 #import "Parse/Parse.h"
-#import "PostTableViewCell.h"
+#import "PostCell.h"
 #import "Post.h"
 #import "UIImageView+AFNetworking.h"
 
 @interface HomeFeedViewController ()
     
     @property (weak, nonatomic) IBOutlet UITableView *tableView;
-    @property (weak, nonatomic) NSMutableArray *posts;
+    @property (strong, nonatomic) NSMutableArray *posts;
     @property (nonatomic, strong) UIRefreshControl *refreshControl;
 @end
 
@@ -24,6 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+   [self beginRefresh];
     //start spining
     // Initialize a UIRefreshControl
     self.tableView.delegate = self;
@@ -31,18 +32,20 @@
     
     
     self.refreshControl = [[UIRefreshControl alloc] init];
-    [self.refreshControl addTarget:self action:@selector(beginRefresh:) forControlEvents:UIControlEventValueChanged];
+    [self.refreshControl addTarget:self action:@selector(beginRefresh) forControlEvents:UIControlEventValueChanged];
     [self.tableView insertSubview:self.refreshControl atIndex:0];
-    // [self beginRefresh:nil];
+   
 }
 
     
     // Makes a network request to get updated data
     // Updates the tableView with the new data
     // Hides the RefreshControl
-- (void)beginRefresh:(UIRefreshControl *)refreshControl {
+- (void)beginRefresh {
     // construct query
     PFQuery *query = [PFQuery queryWithClassName:@"Post"];
+     [query orderByDescending:@"createdAt"];
+    [query includeKey:@"author"];
     query.limit = 20;
     
     // fetch data asynchronously
@@ -77,20 +80,18 @@
 }
 */
 
-- (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
-    PostTableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:@"PostCell"];
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    PostCell* cell = [tableView dequeueReusableCellWithIdentifier:@"PostCell"];
     Post *post = self.posts[indexPath.row];
-    // cell.theCaption.text = post[@"caption"];
-    
-//    NSString* URL = post.image.url;
-//    NSURL* NURL = [NSURL URLWithString:URL];
-//    [cell.thePicture setImageWithURL:NURL];
-//
-    
-    
+    cell.theCaption.text = post[@"caption"];
+
+    NSString* URL = post.image.url;
+    NSURL* NURL = [NSURL URLWithString:URL];
+    [cell.thePicture setImageWithURL:NURL];
+
     return cell;
 }
-    
+
 - (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 //    return self.posts.count;
     return self.posts.count;
