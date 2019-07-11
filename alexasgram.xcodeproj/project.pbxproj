@@ -10,6 +10,7 @@
 		36C259BD198FEC3518447FA2 /* Pods_alexasgramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55AA5949448E93ACB8F4363A /* Pods_alexasgramTests.framework */; };
 		910EA8C822D6C2890081C8E4 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 910EA8C722D6C2890081C8E4 /* Post.m */; };
 		9112F1F522D7C7410022A84C /* PostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9112F1F422D7C7410022A84C /* PostCell.m */; };
+		91434EDC22D7EDAC003EA0C8 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91434EDB22D7EDAC003EA0C8 /* DetailsViewController.m */; };
 		914D23E322D3FBA3000227BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 914D23E222D3FBA3000227BC /* AppDelegate.m */; };
 		914D23E622D3FBA3000227BC /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914D23E522D3FBA3000227BC /* SignUpViewController.m */; };
 		914D23E922D3FBA3000227BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914D23E722D3FBA3000227BC /* Main.storyboard */; };
@@ -53,6 +54,8 @@
 		910EA8C722D6C2890081C8E4 /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
 		9112F1F322D7C7410022A84C /* PostCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostCell.h; sourceTree = "<group>"; };
 		9112F1F422D7C7410022A84C /* PostCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostCell.m; sourceTree = "<group>"; };
+		91434EDA22D7EDAC003EA0C8 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		91434EDB22D7EDAC003EA0C8 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		914D23DE22D3FBA3000227BC /* alexasgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alexasgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		914D23E122D3FBA3000227BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		914D23E222D3FBA3000227BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -149,6 +152,8 @@
 				914D241D22D5664D000227BC /* ProfileViewController.m */,
 				914D241922D54539000227BC /* HomeFeedViewController.h */,
 				914D241A22D54539000227BC /* HomeFeedViewController.m */,
+				91434EDA22D7EDAC003EA0C8 /* DetailsViewController.h */,
+				91434EDB22D7EDAC003EA0C8 /* DetailsViewController.m */,
 				914D23EA22D3FBA4000227BC /* Assets.xcassets */,
 				914D23EC22D3FBA4000227BC /* LaunchScreen.storyboard */,
 				914D23EF22D3FBA4000227BC /* Info.plist */,
@@ -423,6 +428,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				914D246B22D696F4000227BC /* PostingViewController.m in Sources */,
+				91434EDC22D7EDAC003EA0C8 /* DetailsViewController.m in Sources */,
 				914D241B22D54539000227BC /* HomeFeedViewController.m in Sources */,
 				914D241822D541B8000227BC /* LoginViewController.m in Sources */,
 				914D23E622D3FBA3000227BC /* SignUpViewController.m in Sources */,

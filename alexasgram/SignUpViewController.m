@@ -48,6 +48,7 @@
            // manually segue to logged in view
         }
     }];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 //the Cancel button is the action, you dismiss the animation and go back to login origional page
