@@ -10,7 +10,7 @@
 #import "Post.h"
 #import "Parse/Parse.h"
 
-@interface PostingViewController ()
+@interface PostingViewController () 
     @property (weak, nonatomic) IBOutlet UITextField *caption;
 
     @property (weak, nonatomic) IBOutlet UIImageView *postImageView;
@@ -50,14 +50,27 @@
     
     [Post postUserImage:_postImageView.image withCaption:_caption.text withCompletion:^(BOOL succeeded, NSError * _Nullable error) {
         
-        [self.tabBarController setSelectedIndex:0];
-        
-        
-        
-        
+        if (error != nil){
+            NSLog(@"%@", error);
+        }
+        else{
+            NSLog(@"success");
+            [self.tabBarController setSelectedIndex:0];
+        }
     }];
 }
     
+//    [Post postUserImage:_postImageView.image withCaption:_caption.text withCompletion:^(BOOL succeeded, NSError * _Nullable error) {
+//
+//        [self.tabBarController setSelectedIndex:0];
+//
+//        if (error != nil){
+//            NSLog(@"Success");
+//        }
+//        else{
+//            NSLog(@"fail");
+//        }
+//    }];
 //The method to chose the picture you want from the camera roll
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
     

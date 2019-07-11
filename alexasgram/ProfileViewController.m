@@ -20,6 +20,7 @@
     // Do any additional setup after loading the view.
 }
 
+ 
 //method to log out
 - (void)logoutUser{
 [PFUser logOutInBackgroundWithBlock:^(NSError * _Nullable error) {

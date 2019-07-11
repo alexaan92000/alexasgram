@@ -7,6 +7,7 @@ target 'alexasgram' do
 
   # Pods for alexasgram
     pod 'Parse'
+    pod 'AFNetworking'
 
   target 'alexasgramTests' do
     inherit! :search_paths
