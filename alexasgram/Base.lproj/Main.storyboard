@@ -198,6 +198,10 @@
                                 <state key="normal" title="Add Profile Photo">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="AddProfilePhoto:" destination="m2c-Pf-zLJ" eventType="touchUpInside" id="aha-op-utp"/>
+                                    <action selector="DidTap:" destination="m2c-Pf-zLJ" eventType="touchUpInside" id="Cai-af-hYE"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -212,6 +216,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="setImage" destination="v8V-l1-dTy" id="w1h-dh-h9v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J05-k7-m3d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
