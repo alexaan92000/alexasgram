@@ -9,7 +9,10 @@
 #import "HomeFeedViewController.h"
 
 @interface HomeFeedViewController ()
-
+    @property (weak, nonatomic) IBOutlet UITableView *tableView;
+    
+    @property(weak, nonatomic) NSMutableArray *posts;
+    
 @end
 
 @implementation HomeFeedViewController
@@ -17,6 +20,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [self fetchPostsFromParse];
+}
+    
+    
+- (void)fetchPostsFromParse {
+    // fetch the top 20 posts from Parse
+    
+    // [tableView reloadData];
 }
 
 /*
@@ -29,4 +43,13 @@
 }
 */
 
-@end
+- (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
+    return [tableView dequeueReusableCellWithIdentifier:@"PostCell"];
+}
+    
+- (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return _posts.count;
+}
+    
+    
+    @end
