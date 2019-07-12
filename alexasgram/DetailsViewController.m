@@ -20,8 +20,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.detailLabel.text=self.post.caption;
-    self
+    self.detailLabel.text = self.post.caption;
+    
+    NSString* URL = self.post.image.url;
+    NSURL* NURL = [NSURL URLWithString:URL];
+    [self.detailPhoto setImageWithURL:NURL];;
 }
 
 @end
