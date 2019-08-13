@@ -33,17 +33,37 @@
     NSString *username = self.loginTextField.text;//@"a";
     NSString *password = self.passwordTextField.text;//@"a";
     
+    //with parse
     [PFUser logInWithUsernameInBackground:username password:password block:^(PFUser * user, NSError *  error) {
         if (error != nil) {
-            NSLog(@"User log in failed: %@", error.localizedDescription);
+            //  NSLog(@"User log in failed: %@", error.localizedDescription);
+            //alert
+            UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"User log in failed"
+                                                                           message:@"Please try your username and password again"
+                                                                    preferredStyle:(UIAlertControllerStyleAlert)];
+            
+            // create an OK action
+            UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK"
+                                                               style:UIAlertActionStyleDefault
+                                                             handler:^(UIAlertAction * _Nonnull action) {
+                                                                 // handle response here.
+                                                             }];
+            // add the OK action to the alert controller
+            [alert addAction:okAction];
+            [self presentViewController:alert animated:YES completion:^{
+                // optional code for what happens after the alert controller has finished presenting
+                
+            }];
         } else {
             NSLog(@"User logged in successfully");
             
             // display view controller that needs to shown after successful login
             [self performSegueWithIdentifier:@"showTabBar" sender:nil];
+            
         }
     }];
 }
+
 
 //the log in BUTTON is how and why I created the action, every button is an action. this action for login in is calling the loginUser method
 - (IBAction)loginin:(id)sender {
