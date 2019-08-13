@@ -38,7 +38,10 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/TWtnWHqM6y.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+- Link to gif by first creating an account: http://g.recordit.co/iCcOhEwmQQ.gif
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
